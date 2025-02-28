@@ -70,7 +70,7 @@ It confirms that traveling alone reduced survival chances, but this rate varied 
 *Graph interpretation: While passengers traveling alone had a lower survival rate (~30%), they were by far the most represented group on board (537 people). This explains why their bar is the highest in absolute number of survivors, despite having lower survival chances.*
 
 Here is the final report:
-[Consult the final report here] (https://github.com/Paul-Buchholz/Titanic-EDA/blob/main/RAPPORT_FINAL.md)
+[Consult the final report here](https://github.com/Paul-Buchholz/Titanic-EDA/blob/main/RAPPORT_FINAL.md)
 
 ## Future Explorations
 - **Implement Machine Learning models to predict survival probabilities.**
@@ -206,7 +206,7 @@ Cela confirme que voyager seul réduisait les chances de survie mais que ce taux
 
 
 Voici le rapport final : 
-[Consultez le rapport final ici] (https://github.com/Paul-Buchholz/Titanic-EDA/blob/main/RAPPORT_FINAL.md)
+[Consultez le rapport final ici](https://github.com/Paul-Buchholz/Titanic-EDA/blob/main/RAPPORT_FINAL.md)
 
 ## Possibles explorations futures
 - **Tester des techniques de Machine Learning pour prédire la survie.**
