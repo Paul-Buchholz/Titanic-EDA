@@ -64,7 +64,7 @@ It confirms the "Women and children first" rule.
 This boxplot and statistical analysis confirm that age was a significant factor in survival rates.
 Children (≤10 years old) had a higher survival rate, further reinforcing the "Women and children first" principle.
 
-![Countplot-Statistics_Taux_de_survie_vs_FamilySize_Pclass](https://github.com/Paul-Buchholz/Titanic-EDA/blob/main/Images/Violinplot-Statistics_Taux_de_survie_vs_Age.png)
+![Countplot-Statistics_Taux_de_survie_vs_FamilySize_Pclass](https://github.com/Paul-Buchholz/Titanic-EDA/blob/main/Images/Countplot-Statistics_Taux_de_survie_vs_FamilySize_Pclass.png)
 This countplot and statistical analysis confirm that family size (FamilySize = SibSp + Parch + 1) and class were important factors in a passenger's survival rate.
 It confirms that traveling alone reduced survival chances, but this rate varied depending on the passenger’s class.
 *Graph interpretation: While passengers traveling alone had a lower survival rate (~30%), they were by far the most represented group on board (537 people). This explains why their bar is the highest in absolute number of survivors, despite having lower survival chances.*
@@ -199,7 +199,7 @@ Il confirme donc la règle du *"Women and children first"*.
 Ce boxplot et cette analyse statistique nous confirme que l'âge a été une variable significative sur le taux de survie. 
 Les enfants(≤10 ans) ayant plus de chance de survie. Là encore, cela confirme la règle du *"Women and children first"*.
 
-![Countplot-Statistics_Taux_de_survie_vs_FamilySize_Pclass](https://github.com/Paul-Buchholz/Titanic-EDA/blob/main/Images/Violinplot-Statistics_Taux_de_survie_vs_Age.png)
+![Countplot-Statistics_Taux_de_survie_vs_FamilySize_Pclass](https://github.com/Paul-Buchholz/Titanic-EDA/blob/main/Images/Countplot-Statistics_Taux_de_survie_vs_FamilySize_Pclass.png)
 Ce countplot et cette analyse statistiques nous confirme que la taille de la famille *(FamilySize=SibSp+Parch+1)* et la classe sont des facteurs important pour le taux de survie d'un passager.  
 Cela confirme que voyager seul réduisait les chances de survie mais que ce taux évolue selon la classe du passager. 
 *Interprétation du graphique : Bien que les passagers voyageant seuls aient eu un taux de survie plus faible (~30%), ils étaient de loin le groupe le plus représenté à bord (537 personnes). Cela explique pourquoi leur barre est la plus haute en nombre absolu de survivants, malgré des chances de survie plus réduites.*
