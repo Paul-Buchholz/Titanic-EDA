@@ -170,12 +170,28 @@ L'analyse suit plusieurs étapes clés :
 - **Les passagers ayant une cabine avaient un taux de survie de ~67%, contre ~30% pour ceux sans cabine.**  
 - **Le prix du billet était corrélé à la survie : les survivants avaient payé en moyenne ~48.4, contre ~22.1 pour les non-survivants.**  
 - **Les passagers ayant embarqué à Cherbourg avaient un taux de survie plus élevé (~55%).** (majorité de passagers en 1ère classe)
+- **Voyager seul réduisait les chances de survie, les petites familles (2-4 membres) avaient les meilleures chances de survie, indépendamment de la classe.
 
 ## Visualisations
-Voici quelques aperçus des graphiques obtenus dans l'analyse :
-![Violinplot-Survival](https://github.com/Paul-Buchholz/Titanic-EDA/blob/main/images/violinplot_survival.png?raw=true)
-![Boxplot-Fare](https://github.com/Paul-Buchholz/Titanic-EDA/blob/main/images/boxplot_fare.png?raw=true)
+Dans cette analyse, plusieurs visualisations ont permis de mettre en évidence les facteurs clés influençant la survie des passagers du Titanic.
+Ci-dessous, voici 3 graphiques représentatifs, mais d'autres analyses et visualisations sont disponibles dans le notebook.  
+
+![Barplot_Sex_Vs_Survival](https://github.com/Paul-Buchholz/Titanic-EDA/blob/main/Images/Barplot_Taux_de_survie_vs_Sex.png)
+Ce barplot met en évidence la forte disparité hommes/femmes dans la survie.
+Il confirme donc la règle du *"Women and children first"*.
+
+![Boxplot-Statistics_Taux_de_survie_vs_Age](https://github.com/Paul-Buchholz/Titanic-EDA/blob/main/Images/Boxplot-Statistics_Taux_de_survie_vs_Age.png)
+Ce boxplot et cette analyse statistique nous confirme que l'âge a été une variable significative sur le taux de survie. 
+Les enfants(≤10 ans) ayant plus de chance de survie. Là encore, cela confirme la règle du *"Women and children first"*.
+
+![Countplot-Statistics_Taux_de_survie_vs_FamilySize_Pclass](https://github.com/Paul-Buchholz/Titanic-EDA/blob/main/Images/Violinplot-Statistics_Taux_de_survie_vs_Age.png)
+Ce countplot et cette analyse statistiques nous confirme que la taille de la famille *(FamilySize=SibSp+Parch+1)* et la classe sont des facteurs important pour le taux de survie d'un passager.  
+Cela confirme que voyager seul réduisait les chances de survie mais que ce taux évolue selon la classe du passager. 
+*Interprétation du graphique : Bien que les passagers voyageant seuls aient eu un taux de survie plus faible (~30%), ils étaient de loin le groupe le plus représenté à bord (537 personnes). Cela explique pourquoi leur barre est la plus haute en nombre absolu de survivants, malgré des chances de survie plus réduites.*
+
+
 Voici le rapport final : 
+[Consultez le rapport final ici]https://github.com/Paul-Buchholz/Titanic-EDA/blob/main/RAPPORT_FINAL.md
 
 ## Possibles explorations futures
 - **Tester des techniques de Machine Learning pour prédire la survie.**
