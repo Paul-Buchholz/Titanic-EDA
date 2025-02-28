@@ -53,9 +53,24 @@ The analysis follows several key steps:
 - **Passengers embarking at Cherbourg had a higher survival rate (~55%), mainly because they were in 1st class.**  
 
 ## Visualizations
-Here are some previews of the visualizations obtained in the analysis:
-![Violinplot-Survival](https://github.com/Paul-Buchholz/Titanic-EDA/blob/main/images/violinplot_survival.png?raw=true)
-![Boxplot-Fare](https://github.com/Paul-Buchholz/Titanic-EDA/blob/main/images/boxplot_fare.png?raw=true)
+In this analysis, several visualizations helped highlight the key factors influencing the survival of Titanic passengers.
+Below are three representative charts, but additional analyses and visualizations are available in the notebook.  
+
+![Barplot_Sex_Vs_Survival](https://github.com/Paul-Buchholz/Titanic-EDA/blob/main/Images/Barplot_Taux_de_survie_vs_Sex.png)
+This barplot highlights the strong disparity between men and women in survival rates.
+It confirms the "Women and children first" rule.
+
+![Boxplot-Statistics_Taux_de_survie_vs_Age](https://github.com/Paul-Buchholz/Titanic-EDA/blob/main/Images/Boxplot-Statistics_Taux_de_survie_vs_Age.png)
+This boxplot and statistical analysis confirm that age was a significant factor in survival rates.
+Children (≤10 years old) had a higher survival rate, further reinforcing the "Women and children first" principle.
+
+![Countplot-Statistics_Taux_de_survie_vs_FamilySize_Pclass](https://github.com/Paul-Buchholz/Titanic-EDA/blob/main/Images/Violinplot-Statistics_Taux_de_survie_vs_Age.png)
+This countplot and statistical analysis confirm that family size (FamilySize = SibSp + Parch + 1) and class were important factors in a passenger's survival rate.
+It confirms that traveling alone reduced survival chances, but this rate varied depending on the passenger’s class.
+*Graph interpretation: While passengers traveling alone had a lower survival rate (~30%), they were by far the most represented group on board (537 people). This explains why their bar is the highest in absolute number of survivors, despite having lower survival chances.*
+
+Here is the final report:
+[Consultez le rapport final ici]https://github.com/Paul-Buchholz/Titanic-EDA/blob/main/RAPPORT_FINAL.md
 
 ## Future Explorations
 - **Implement Machine Learning models to predict survival probabilities.**
